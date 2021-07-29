@@ -7,3 +7,6 @@
 
 ### References
 - plot.ly/python
+- bash_auth trouble shooting
+	- pip install cufflinks
+

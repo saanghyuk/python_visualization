@@ -28,7 +28,7 @@ app.layout = html.Div([
     dcc.RadioItems(
         id='colors',
         options=[{'label': i, 'value': i} for i in df['color'].unique()],
-        value='blue'
+        value='blue'    
     ),
     html.Div(id='colors-output'),
     html.Img(id='display-image', src='children', height=300)
